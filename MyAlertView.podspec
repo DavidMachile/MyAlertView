@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+    TODO: 自定义alertview
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/MyAlertView"
+  spec.homepage     = "https://github.com/DavidMachile/MyAlertView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/MyAlertView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/DavidMachile/MyAlertView.git", :tag => "#{0.0.1}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
